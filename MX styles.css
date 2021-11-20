@@ -1,0 +1,148 @@
+.uppercase {
+    text-transform: uppercase
+}
+i {
+    font-size: 15px;
+}
+.nav {
+    color: white;
+}
+.nav-item {
+    padding-right: 15px;
+}
+video {
+    width: 100%;
+    height: 100%;
+  }
+.bg-image {
+    width: 100%;
+    height: 380px;    
+    background-size: cover;
+}
+.slide1 {
+    background-image: url('https://github.com/Vigneshv288/MX-Player/blob/main/Assets/Carousel/Jai_Bhim.jpg?raw=true');
+}
+.slide2 {
+    background-image: url('https://raw.githubusercontent.com/Vigneshv288/MX-Player/main/Assets/Carousel/Akhanda.webp');
+}
+.slide3 {
+    background-image: url('https://github.com/Vigneshv288/MX-Player/blob/main/Assets/Carousel/sumesh-and-ramesh.jpg?raw=true');
+}
+.slide4 {
+    background-image: url('https://github.com/Vigneshv288/MX-Player/blob/main/Assets/Carousel/nightmare-alley.jpg?raw=true');
+}
+@media screen and (max-width: 550px) {
+    .slide1{
+        background-image: none;
+        height: auto;
+    }  
+    .slide2{
+        background-image: none;
+        height: auto;
+    } 
+    .slide3{
+        background-image: none;
+        height: auto;
+    } 
+    .slide4{
+        background-image: none;
+        height: auto;
+    } 
+}
+a {
+    text-decoration: none;
+    font-weight:500;
+}
+.dis-img img {
+    width: 100%;
+    height: auto;
+}
+.zoom img:hover{
+    transform: scale(1.03); 
+}
+.dis-img a {
+    color: rgb(119, 114, 114);
+}
+.small {
+    font-size: smaller;
+}
+.foot-section {
+    background-color: rgb(233, 229, 229);
+}
+.foot-section a {
+    color: rgb(119, 114, 114);
+    font-size: smaller;
+}
+.circle-icon {
+    border: solid;
+    border-width: thin;
+    padding:8px;
+    border-radius: 50%;
+}
+.app-download {
+    width: 25%;
+    height: auto;
+}
+@media screen and (max-width: 991px) {
+    .foot-logo img{
+        width: 25%;
+        height: auto;
+    }
+}  
+a:hover {
+    color: blue;
+}
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+}
+.carousel-control-prev {
+    width: 3%;
+    height: 10%;
+    top: 50%;
+    left: 1%;
+    background-color: gray;
+    border-radius: 100%;
+    opacity: 100;
+}
+.carousel-control-next {
+    width: 3%;
+    height: 10%;
+    top: 50%;
+    right: 1%;
+    background-color: gray;
+    border-radius: 100%;
+    opacity: 100;
+}
+.nav-bottom {
+    color: white;
+    font-size: smaller;
+    padding-right: 50px;
+}
+.nav-bottom  a:hover{
+    text-decoration: underline;
+    color: white;
+}
+@media only screen and (min-width: 991px){
+    .dropdown-menu {
+        transform: translateX(-25%);
+        border-radius: 10%;
+    }
+    .dropdown-menu::after {
+        position: absolute;
+        top: -15px;
+        left: 40%;
+        display: inline-block;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid white;
+        border-left: 15px solid transparent;
+        content: '';
+    }
+    .dropdown-toggle:hover::after {
+        transform: rotate(180deg);
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }       
+}
