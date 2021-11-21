@@ -16,7 +16,7 @@
 <body>
 
 <!-- Navbar Section -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary px-3">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary px-3 mb-2">
   <a class="navbar-brand" href="#">
     <img src="./Assets/logo.png" alt="Logo" width="120px" height="auto%"/>
   </a>
@@ -93,18 +93,18 @@
 </nav>
 
 <!-- Bottom Navbar for Smaller Screen -->
-<nav class="navbar d-sm-none fixed-bottom bg-primary px-3">
-  <ul class="nav me-auto nav-bottom">
-    <li>
-      <a class="active nav-bottom" aria-current="page" href="#"><i class="fas fa-folder"></i> Local</a>
+<nav class="navbar d-sm-none fixed-bottom bg-primary px-3 justify-content-center">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-bottom active" aria-current="page" href="#"><i class="fas fa-folder"></i> Local</a>
     </li>
-    <li>
+    <li class="nav-item">
       <a class="nav-bottom" aria-current="page" href="#"><i class="fas fa-play-circle"></i> Videos</a>
     </li>
-    <li>
+    <li class="nav-item">
       <a class="nav-bottom" aria-current="page" href="#"><i class="fas fa-gamepad"></i> Games</a>
     </li>
-    <li>
+    <li class="nav-item">
       <a class="nav-bottom" aria-current="page" href="#"><i class="fas fa-music"></i> Music</a>
     </li>
   </ul>
@@ -164,118 +164,124 @@
 <!-- Tamil Trending -->
 <div class="container-fluid mt-5 px-3">
   <div class="row  align-items-start mb-3">
-    <div class="col h3">Trending Now in Tamil</div>
-    <div class="col text-end uppercase"><a href="#">More Videos</a></div>
+    <div class="col-8 h3 more">Trending Now in Tamil</div>
+    <div class="col-4 text-end uppercase more"><a href="#">More Videos</a></div>
   </div>
 <!-- Slides -->
+<div class="scroll">
   <div class="row zoom">
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Tamil_Trending/Slide_1.jpg" alt="Trending">
-        <div class="mt-2">Doctor</div>
+        <div class="mt-2 more">Doctor</div>
         <div class="small">Drama, Tamil, 2019</div>
       </a>
     </div>
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Tamil_Trending/Slide_2.jpg" alt="Trending">
-        <div class="mt-2">Laabam</div>
+        <div class="mt-2 more">Laabam</div>
         <div class="small">Drama, Tamil, 2021</div>
         </a>
     </div>
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Tamil_Trending/Slide_3.jpg" alt="Trending">
-        <div class="mt-2">Boomika</div>
+        <div class="mt-2 more">Boomika</div>
         <div class="small">Thriller, Tamil, 2020</div>
         </a>
     </div>
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Tamil_Trending/Slide_4.jpg" alt="Trending">
-        <div class="mt-2">Navarasa</div>
+        <div class="mt-2 more">Navarasa</div>
         <div class="small">Drama, Tamil, 2021</div>
       </a>
     </div>
   </div>
+</div>
 </div>
 
 <!-- Shows in Demand -->
 <div class="container-fluid mt-5 px-3">
   <div class="row  align-items-start mb-3">
-    <div class="col h3">Shows in Demand</div>
-    <div class="col text-end uppercase"><a href="#">More Videos</a></div>
+    <div class="col h3 more">Shows in Demand</div>
+    <div class="col text-end uppercase more"><a href="#">More Videos</a></div>
   </div>
 <!-- Slides -->
+<div class="scroll">
   <div class="row zoom">
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Shows/Show_1.jpg" alt="Demands">
-        <div class="mt-2">Squid Game</div>
+        <div class="mt-2 more">Squid Game</div>
         <div class="small">1 Season, 2021</div>
       </a>
     </div>
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Shows/Show_2.jpg" alt="Demands">
-        <div class="mt-2">Money Heist</div>
+        <div class="mt-2 more">Money Heist</div>
         <div class="small">5 Seasons, 2017</div>
         </a>
     </div>
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Shows/Show_3.jpg" alt="Demands">
-        <div class="mt-2">Hellbound</div>
+        <div class="mt-2 more">Hellbound</div>
         <div class="small">1 Season, 2021</div>
         </a>
     </div>
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Shows/Show_5.jpg" alt="Demands">
-        <div class="mt-2">Lucifier</div>
+        <div class="mt-2 more">Lucifier</div>
         <div class="small">6 Season, 2016</div>
         </a>
     </div>
   </div>
 </div>
+</div>
 
 <!-- Lates Movies -->
 <div class="container-fluid mt-5 px-3">
   <div class="row  align-items-start mb-3">
-    <div class="col h3">Popular Movies</div>
-    <div class="col text-end uppercase"><a href="#">More Videos</a></div>
+    <div class="col h3 more">Popular Movies</div>
+    <div class="col text-end uppercase more"><a href="#">More Videos</a></div>
   </div>
 <!-- Slides -->
+<div class="scroll">
   <div class="row zoom">
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Popular_Movies/Movie_1.jpg" alt="Demands">
-        <div class="mt-2">Watchman</div>
+        <div class="mt-2 more">Watchman</div>
         <div class="small">Drama, Tamil, 2019</div>
       </a>
     </div>
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Popular_Movies/Movie_2.jpg" alt="Demands">
-        <div class="mt-2">Echcharikkai</div>
+        <div class="mt-2 more">Echcharikkai</div>
         <div class="small">Crime, Tamil, 2018</div>
         </a>
     </div>
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Popular_Movies/Movie_3.jpg" alt="Demands">
-        <div class="mt-2">Red Notice</div>
+        <div class="mt-2 more">Red Notice</div>
         <div class="small">Crime, English, 2021</div>
         </a>
     </div>
-    <div class="col-md dis-img mb-3">
+    <div class="col-3 dis-img mb-3">
       <a href="#">
         <img src="./Assets/Popular_Movies/Movie_4.jpg" alt="Demands">
-        <div class="mt-2">Army of Thieves</div>
+        <div class="mt-2 more">Army of Thieves</div>
         <div class="small">Crime, English, 2021</div>
       </a>
     </div>
   </div>
+</div>
 </div>
 
 <!-- Footer -->
@@ -378,11 +384,11 @@
     <div class="Container col-lg-3 mb-3">
       <p>Follow Us</p>
       <div class="row">
-      <div class="col-lg-2 pb-2"><a href=""><i class="fa fa-facebook circle-icon"></i></a></div>
-      <div class="col-lg-2 pb-2"><a href=""><i class="fa fa-twitter circle-icon"></i></a></div>
-      <div class="col-lg-2 pb-2"><a href=""><i class="fa fa-youtube circle-icon"></i></a></div>
-      <div class="col-lg-2 pb-2"><a href=""><i class="fa fa-linkedin circle-icon"></i></a></div>
-      <div class="col-lg-2 pb-2"><a href=""><i class="fa fa-instagram circle-icon"></i></a></div>
+      <div class="col pb-2"><a href=""><i class="fa fa-facebook circle-icon"></i></a></div>
+      <div class="col pb-2"><a href=""><i class="fa fa-twitter circle-icon"></i></a></div>
+      <div class="col pb-2"><a href=""><i class="fa fa-youtube circle-icon"></i></a></div>
+      <div class="col pb-2"><a href=""><i class="fa fa-linkedin circle-icon"></i></a></div>
+      <div class="col pb-2"><a href=""><i class="fa fa-instagram circle-icon"></i></a></div>
     </div>
     </div>
   </div>

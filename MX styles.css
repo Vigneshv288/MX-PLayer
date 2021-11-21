@@ -47,8 +47,36 @@ video {
     .slide4{
         background-image: none;
         height: auto;
+    }
+    .h3 {
+        font-size: medium;
+    }
+    .more {
+        font-size: small;
     } 
 }
+@media screen and (max-width: 400px) {
+    .dis-img img {
+        width: auto !important;
+        height: 60px !important;
+    }
+    .zoom {
+        text-align: center;
+    }
+    .scroll > .row {
+        overflow-x: scroll;
+        white-space: nowrap;
+        display: block;
+    
+      }
+      .scroll > .row > .col-3 {
+        display: inline-block;
+        margin-right: 40px;
+      }
+      .row::-webkit-scrollbar {
+        display: none;
+    }
+}  
 a {
     text-decoration: none;
     font-weight:500;
@@ -105,6 +133,7 @@ a:hover {
     background-color: gray;
     border-radius: 100%;
     opacity: 100;
+    padding: 15px;
 }
 .carousel-control-next {
     width: 3%;
@@ -114,11 +143,12 @@ a:hover {
     background-color: gray;
     border-radius: 100%;
     opacity: 100;
+    padding: 15px;
 }
 .nav-bottom {
     color: white;
     font-size: smaller;
-    padding-right: 50px;
+    padding-right: 10px;
 }
 .nav-bottom  a:hover{
     text-decoration: underline;
@@ -145,4 +175,8 @@ a:hover {
     .dropdown:hover .dropdown-menu {
         display: block;
     }       
+}
+.carousel {
+    margin-top: 30px !important;
+    padding-top: 30px !important;
 }
